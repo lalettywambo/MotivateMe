@@ -17,18 +17,12 @@ A simple interactive page. The user types their name and age into a form, and th
 - A `for` loop displays the motivational quote five times.
 - When the page reloads, the saved info is shown automatically.
 
-## Deploy on GitHub Pages
-1. Create a new GitHub repository and upload the files.
-2. Go to **Settings → Pages**.
-3. Under **Branch**, select `main` and `/root`, then click **Save**.
-4. Your page will be live at `https://your-username.github.io/your-repo/`.
-
 ## Git Quick Start
 ```bash
 git init
 git add .
 git commit -m "Initial commit: personalized webpage"
 git branch -M main
-git remote add origin https://github.com/your-username/your-repo.git
+git remote add origin https://github.com/lalettywambo/MotivateMe.git
 git push -u origin main
 ```
